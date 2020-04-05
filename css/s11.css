@@ -1,0 +1,156 @@
+@import "http://maxcdn.boostrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+html {
+scroll-behavior:smooth;
+
+}
+
+*{    
+font-family: 
+century gothic;
+
+}
+
+header{
+background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('pic.jpg');
+   
+height: 100vh;
+    
+background-size: cover;
+    
+background-position: center;
+
+}
+
+section img{
+height: 100vh;
+width:100%;    
+background-size: cover;    
+background-position: center;
+
+}
+nav {
+    background-color: white ;
+    width:auto;
+    height: 100px;
+}
+
+
+nav ul{
+    
+float: right;
+    
+list-style-type: none;
+   
+margin-top: 25px; 
+ 
+
+}
+
+nav ul li{
+    
+display: inline-block;
+    
+
+}
+
+nav ul li a{
+    
+text-decoration: none;
+    
+color: #000;
+    
+padding: 5px 20px;
+    
+border: 1px solid transparent;
+    
+transition: 0.6s ease;
+
+}
+
+nav ul li a:hover{
+    
+background-color: skyblue;
+    
+color: #000;
+
+}
+
+nav ul li.active a{
+    
+background-color: #fff;
+    
+color: #000;
+
+}
+
+ nav .p1 img{
+    
+float: left;
+ position:fixed;
+    
+width: 100px;
+    
+height: auto;
+
+}
+
+.main{
+    
+max-width: 1200px;
+    
+margin: auto;
+}
+
+.c2{
+color:white;
+family-font:arial;
+position:fixed;
+}
+
+.login-box{
+    width: 750px;
+    height: 520px;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+    color: white;
+    top: 60%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+    border: 10px solid silver;
+}
+
+.btn{
+width: 50%;
+background: black;
+border: 5px solid #4caf50;
+color: white;
+padding: 5px;
+font-size: 15px;
+cursor: pointer;
+margin: 5px 0;
+}
+
+.btn1{
+width: 150px;
+background: black;
+border: 5px solid red;
+color: white;
+padding: 5px;
+font-size: 15px;
+cursor: pointer;
+margin: 5px 0px ;
+float:right;
+}
+
+.btn2{
+width: 30%;
+background: black;
+border: 5px solid blue;
+color: white;
+padding: 5px;
+font-size: 15px;
+cursor: pointer;
+margin: 5px 0;
+}
